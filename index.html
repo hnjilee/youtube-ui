@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ce04dd2fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <i class="fa-brands fa-youtube"></i>
+        YouTube
+      </a>
+      <div class="header__btns">
+        <button class="header__btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="header__btn">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Player -->
+    <section class="player">
+      <video src="video/video.mp4" class="player__video" controls></video>
+    </section>
+
+    <section class="metadata-and-playlist">
+      <!-- Metadata -->
+      <section class="metadata">
+        <!-- Information -->
+        <div class="metadata__info">
+          <ul class="info__hashtags">
+            <li class="info__hashtag">#LoremIpsum</li>
+            <li class="info__hashtag">#Dolor</li>
+            <li class="info__hashtag">#SitAmet</li>
+          </ul>
+          <div class="info__title-and-clamp">
+            <p class="info__title info__title--clamped">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+              perspiciatis, accusamus obcaecati totam, neque, quod possimus
+              quibusdam hic atque facere ex quaerat. Hic numquam error
+              repudiandae tempore eius nisi architecto!
+            </p>
+            <button class="info__clamp">
+              <i class="fa-solid fa-caret-down"></i>
+            </button>
+          </div>
+          <p class="info__views">1M views 1 month ago</p>
+        </div>
+        <!-- Buttons -->
+        <ul class="metadata__btns">
+          <li>
+            <button class="metadata__btn">
+              <i
+                class="metadata__btn-icon metadata__btn-icon--active fa-solid fa-thumbs-up"
+              ></i
+              >1K
+            </button>
+          </li>
+          <li>
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-thumbs-down"></i>0
+            </button>
+          </li>
+          <li>
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-share"></i>Share
+            </button>
+          </li>
+          <li>
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-plus"></i>Save
+            </button>
+          </li>
+          <li>
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-flag"></i>Report
+            </button>
+          </li>
+        </ul>
+        <!-- Channel -->
+        <div class="metadata__channel">
+          <div class="channel__metadata">
+            <img
+              src="images/avatar.png"
+              alt="channel's avatar"
+              class="channel__avatar"
+            />
+            <div class="channel__info">
+              <p class="channel__name">Lorem Ipsum Dolor</p>
+              <p class="channel__subscribers">1M subscribers</p>
+            </div>
+          </div>
+          <button class="channel__subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Playlist -->
+      <section class="playlist">
+        <h1 class="playlist__title">Up next</h1>
+        <ul class="playlist__videos">
+          <li class="playlist__video">
+            <div class="video__thumbnail">
+              <img
+                src="images/thumbnail.jpg"
+                alt="A thumbnail of a video on the playlist"
+                class="video__thumbnail-img"
+              />
+            </div>
+            <div class="video__info">
+              <p class="video__title">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
+                nihil maxime laudantium in soluta veritatis!
+              </p>
+              <p class="video__channel">Lorem Ipsum Dolor</p>
+              <p class="video__views">1M views</p>
+            </div>
+            <button class="video__menu">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>
+          <li class="playlist__video">
+            <div class="video__thumbnail">
+              <img
+                src="images/thumbnail.jpg"
+                alt="A thumbnail of a video on the playlist"
+                class="video__thumbnail-img"
+              />
+            </div>
+            <div class="video__info">
+              <p class="video__title">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
+                nihil maxime laudantium in soluta veritatis!
+              </p>
+              <p class="video__channel">Lorem Ipsum Dolor</p>
+              <p class="video__views">1M views</p>
+            </div>
+            <button class="video__menu">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>
+          <li class="playlist__video">
+            <div class="video__thumbnail">
+              <img
+                src="images/thumbnail.jpg"
+                alt="A thumbnail of a video on the playlist"
+                class="video__thumbnail-img"
+              />
+            </div>
+            <div class="video__info">
+              <p class="video__title">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
+                nihil maxime laudantium in soluta veritatis!
+              </p>
+              <p class="video__channel">Lorem Ipsum Dolor</p>
+              <p class="video__views">1M views</p>
+            </div>
+            <button class="video__menu">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
