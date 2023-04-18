@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--base-space);
+  font-size: var(--font-large);
+}
+
+.logo {
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+}
+
+.fa-youtube {
+  color: var(--color-red);
+}
+
+.header-btn {
+  font-size: var(--font-large);
+  color: var(--color-balck);
+}

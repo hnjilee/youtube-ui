@@ -1,0 +1,22 @@
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--font-small);
+  color: var(--color-grey);
+}
+
+.btn__icon {
+  margin-bottom: 0.25em;
+  font-size: var(--font-medium);
+}
+
+.btn__icon--active {
+  color: var(--color-blue);
+}

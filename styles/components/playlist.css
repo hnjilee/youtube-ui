@@ -1,0 +1,9 @@
+.playlist {
+  padding: var(--base-space);
+}
+
+.heading {
+  margin: 0;
+  font-size: var(--font-regular);
+  color: var(--color-grey);
+}
