@@ -14,7 +14,7 @@
 /* Components */
 @import url(components/header.css) layer(components);
 @import url(components/player.css) layer(components);
-@import url(components/information.css) layer(components);
-@import url(components/btns.css) layer(components);
-@import url(components/channel.css) layer(components);
-@import url(components/videos.css) layer(components);
+@import url(components/metadata-info.css) layer(components);
+@import url(components/metadata-btns.css) layer(components);
+@import url(components/metadata-channel.css) layer(components);
+@import url(components/playlist-videos.css) layer(components);

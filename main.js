@@ -1,7 +1,7 @@
-const clampBtn = document.querySelector('.title-and-clamp__clamp');
-const title = document.querySelector('.title-and-clamp__title');
+const clampBtn = document.querySelector('.info__clamp');
+const title = document.querySelector('.info__title');
 
 clampBtn.addEventListener('click', () => {
-  title.classList.toggle('title-and-clamp__title--clamped');
-  clampBtn.classList.toggle('title-and-clamp__clamp--clicked');
+  title.classList.toggle('info__title--clamped');
+  clampBtn.classList.toggle('info__clamp--clicked');
 });

@@ -21,15 +21,15 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <a href="#" class="logo">
+      <a href="#" class="header__logo">
         <i class="fa-brands fa-youtube"></i>
         YouTube
       </a>
-      <div class="header-btns">
-        <button class="header-btn">
+      <div class="header__btns">
+        <button class="header__btn">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
-        <button class="header-btn">
+        <button class="header__btn">
           <i class="fa-solid fa-ellipsis-vertical"></i>
         </button>
       </div>
@@ -38,62 +38,64 @@
     <section class="grid-container">
       <!-- Player -->
       <section class="player">
-        <video src="video/video.mp4" class="player-video" controls></video>
+        <video src="video/video.mp4" class="player__video" controls></video>
       </section>
 
       <!-- Metadata -->
       <section class="metadata">
         <!-- Information -->
-        <div class="information">
-          <ul class="hashtags">
-            <li class="hashtag">#LoremIpsum</li>
-            <li class="hashtag">#Dolor</li>
-            <li class="hashtag">#SitAmet</li>
+        <div class="metadata__info">
+          <ul class="info__hashtags">
+            <li class="info__hashtag">#LoremIpsum</li>
+            <li class="info__hashtag">#Dolor</li>
+            <li class="info__hashtag">#SitAmet</li>
           </ul>
-          <div class="title-and-clamp">
-            <p class="title-and-clamp__title title-and-clamp__title--clamped">
+          <div class="info__title-and-clamp">
+            <p class="info__title info__title--clamped">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
               perspiciatis, accusamus obcaecati totam, neque, quod possimus
               quibusdam hic atque facere ex quaerat. Hic numquam error
               repudiandae tempore eius nisi architecto!
             </p>
-            <button class="title-and-clamp__clamp">
+            <button class="info__clamp">
               <i class="fa-solid fa-caret-down"></i>
             </button>
           </div>
-          <p class="views">1M views 1 month ago</p>
+          <p class="info__views">1M views 1 month ago</p>
         </div>
         <!-- Buttons -->
-        <ul class="btns">
+        <ul class="metadata__btns">
           <li>
-            <button class="btn">
-              <i class="btn__icon btn__icon--active fa-solid fa-thumbs-up"></i
+            <button class="metadata__btn">
+              <i
+                class="metadata__btn-icon metadata__btn-icon--active fa-solid fa-thumbs-up"
+              ></i
               >1K
             </button>
           </li>
           <li>
-            <button class="btn">
-              <i class="btn__icon fa-solid fa-thumbs-down"></i>0
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-thumbs-down"></i>0
             </button>
           </li>
           <li>
-            <button class="btn">
-              <i class="btn__icon fa-solid fa-share"></i>Share
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-share"></i>Share
             </button>
           </li>
           <li>
-            <button class="btn">
-              <i class="btn__icon fa-solid fa-plus"></i>Save
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-plus"></i>Save
             </button>
           </li>
           <li>
-            <button class="btn">
-              <i class="btn__icon fa-solid fa-flag"></i>Report
+            <button class="metadata__btn">
+              <i class="metadata__btn-icon fa-solid fa-flag"></i>Report
             </button>
           </li>
         </ul>
         <!-- Channel -->
-        <div class="channel">
+        <div class="metadata__channel">
           <div class="channel__metadata">
             <img
               src="images/avatar.png"
@@ -111,9 +113,9 @@
 
       <!-- Playlist -->
       <section class="playlist">
-        <h1 class="heading">Up next</h1>
-        <ul class="videos">
-          <li class="video">
+        <h1 class="playlist__heading">Up next</h1>
+        <ul class="playlist__videos">
+          <li class="playlist__video">
             <div class="video__thumbnail">
               <img
                 src="images/thumbnail.jpg"
@@ -133,7 +135,7 @@
               <i class="fa-solid fa-ellipsis-vertical"></i>
             </button>
           </li>
-          <li class="video">
+          <li class="playlist__video">
             <div class="video__thumbnail">
               <img
                 src="images/thumbnail.jpg"
@@ -153,7 +155,7 @@
               <i class="fa-solid fa-ellipsis-vertical"></i>
             </button>
           </li>
-          <li class="video">
+          <li class="playlist__video">
             <div class="video__thumbnail">
               <img
                 src="images/thumbnail.jpg"

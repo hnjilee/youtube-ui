@@ -2,7 +2,7 @@
   padding: var(--base-space);
 }
 
-.heading {
+.playlist__heading {
   margin: 0;
   font-size: var(--font-regular);
   color: var(--color-grey);

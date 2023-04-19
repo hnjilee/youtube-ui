@@ -1,37 +1,37 @@
-.hashtags {
+.info__hashtags {
   display: flex;
   font-size: var(--font-small);
   color: var(--color-blue);
 }
 
-.hashtag {
+.info__hashtag {
   margin-right: 0.25em;
 }
 
-.title-and-clamp {
+.info__title-and-clamp {
   display: flex;
   justify-content: space-between;
   font-size: var(--font-regular);
   color: var(--color-black);
 }
 
-.title-and-clamp__title--clamped {
+.info__title--clamped {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
 
-.title-and-clamp__clamp {
+.info__clamp {
   align-self: flex-start;
   transition: transform 300ms ease;
 }
 
-.title-and-clamp__clamp--clicked {
+.info__clamp--clicked {
   transform: rotate(180deg);
 }
 
-.views {
+.info__views {
   font-size: var(--font-small);
   color: var(--color-grey);
 }

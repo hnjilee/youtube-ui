@@ -1,10 +1,10 @@
-.btns {
+.metadata__btns {
   display: flex;
   justify-content: space-around;
   margin: 1em 0;
 }
 
-.btn {
+.metadata__btn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,11 +12,11 @@
   color: var(--color-grey);
 }
 
-.btn__icon {
+.metadata__btn-icon {
   margin-bottom: 0.25em;
   font-size: var(--font-medium);
 }
 
-.btn__icon--active {
+.metadata__btn-icon--active {
   color: var(--color-blue);
 }
