@@ -1,3 +1,98 @@
-.metadata {
-  padding: var(--base-space);
+/* Information */
+.info__hashtags {
+  display: flex;
+  font-size: var(--font-small);
+  color: var(--color-blue);
+}
+
+.info__hashtag {
+  margin-right: 0.25em;
+}
+
+.info__title-and-clamp {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-regular);
+  color: var(--color-black);
+}
+
+.info__title--clamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.info__clamp {
+  align-self: flex-start;
+  transition: transform 300ms ease;
+}
+
+.info__clamp--clicked {
+  transform: rotate(180deg);
+}
+
+.info__views {
+  font-size: var(--font-small);
+  color: var(--color-grey);
+}
+
+/* Buttons */
+.metadata__btns {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.metadata__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--font-small);
+  color: var(--color-grey);
+}
+
+.metadata__btn-icon {
+  margin-bottom: 0.25em;
+  font-size: var(--font-medium);
+}
+
+.metadata__btn-icon--active {
+  color: var(--color-blue);
+}
+
+/* Channel */
+.metadata__channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+.channel__metadata {
+  display: flex;
+  align-items: center;
+}
+
+.channel__avatar {
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-right: 0.75em;
+}
+
+.channel__name {
+  font-size: var(--font-regular);
+  color: var(--color-black);
+}
+
+.channel__subscribers {
+  font-size: var(--font-small);
+  color: var(--color-grey);
+}
+
+.channel__subscribe {
+  text-transform: uppercase;
+  font-size: var(--font-regular);
+  color: var(--color-red);
 }

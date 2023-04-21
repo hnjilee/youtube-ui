@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   text-align: center;
+  padding: 0;
 }
 
 .player__video {
@@ -12,6 +13,5 @@
 @media screen and (min-width: 64rem) {
   .player {
     position: static;
-    padding: var(--base-space);
   }
 }
